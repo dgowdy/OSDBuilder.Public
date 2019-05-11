@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome\Recommended]
+"ApplicationLocaleValue"="en"
+"BackgroundModeEnabled"=dword:00000000
+"BlockThirdPartyCookies"=dword:00000001
+"BookmarkBarEnabled"=dword:00000001
+"BuiltInDnsClientEnabled"=dword:00000001
+;"DefaultCookiesSetting"=dword:00000004
+"DefaultGeolocationSetting"=dword:00000002
+"DefaultNotificationsSetting"=dword:00000002
+"DiskCacheSize"=dword:06400000
+"ForceGoogleSafeSearch"=dword:00000001
+"HomepageIsNewTabPage"=dword:00000000
+"HomepageLocation"="https://www.google.com"
+"ImportBookmarks"=dword:00000001
+"NewTabPageLocation"="https://www.google.com"
+"PrintHeaderFooter"=dword:00000000
+"RestoreOnStartup"=dword:00000004
+"SafeBrowsingEnabled"=dword:00000001
+"SafeBrowsingForTrustedSourcesEnabled"=dword:00000000
+"SearchSuggestEnabled"=dword:00000001
+"ShowHomeButton"=dword:00000001
+"SpellCheckServiceEnabled"=dword:00000000
+"TranslateEnabled"=dword:00000001
+"ManagedBookmarks"="[{\"toplevel_name\": \"Suggested Bookmarks\"}, {\"name\": \"Vivid Network Solutions\", \"url\": \"vividnetworksolutions.com\"}, {\"name\": \"Google\", \"url\": \"google.com\"}, {\"name\": \"Youtube\", \"url\": \"youtube.com\"}]"
+
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome\Recommended\RestoreOnStartupURLs]
+"1"="https://www.google.com"
+"2"="https://www.vividnetworksolutions.com"
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Google\Chrome\ExtensionInstallForcelist]
+"1"="cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx"
